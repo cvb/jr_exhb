@@ -1,0 +1,4 @@
+.git
+Mnesia*
+_build
+/bin/cli
