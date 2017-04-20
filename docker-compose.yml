@@ -1,0 +1,10 @@
+version: "2"
+services:
+  trends:
+    build: .
+    environment:
+      GH_TRENDS_PORT: 4001
+      GH_TRENDS_START_SYNC: "true"
+      GH_TRENDS_SYNC_INTERVAL: 10000
+    ports:
+      - 4001:4001
